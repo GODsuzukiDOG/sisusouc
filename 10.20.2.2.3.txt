@@ -1,1 +1,10 @@
-﻿
+﻿#include<stdio.h>
+
+int main(void)
+{
+    int k;
+    printf("Please Enter Number:");
+    scanf_s("%d", &k);
+    printf("NUmber is %d", k);
+    return 0;
+}

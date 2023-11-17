@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+int main(void)
+{
+	int i;
+
+	char aiu;
+
+	printf("文字を入力=");
+	scanf_s("%c", &aiu);
+
+	if ((aiu >= 'a') && (aiu <= 'z'))
+	{
+		printf("アルファベットの小文字しかない\n");
+	}
+	else if ((aiu >= 'A') && (aiu <= 'Z'))
+	{
+		printf("アルファベットの大文字が含まれている\n");
+	}
+	else
+	{
+		printf("その他の文字\n");
+	}
+	return 0;
+}
